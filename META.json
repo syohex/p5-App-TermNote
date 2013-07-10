@@ -57,5 +57,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/syohex/p5-App-TermNote/issues"
+      },
+      "homepage" : "https://github.com/syohex/p5-App-TermNote",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/syohex/p5-App-TermNote.git",
+         "web" : "https://github.com/syohex/p5-App-TermNote"
+      }
+   },
    "version" : "0.01"
 }

@@ -115,37 +115,29 @@ App::TermNote - Application for presentation on terminal
     % termnote.pl presentation.pl
 
     # presentation file is just a perl file like below
-    {
-        type     => 'chapter',
-        title    => 'How To Learn',
-        subtitle => 'A Presentation By Tms',
-    },
-    {
-        type    => 'text',
-        title   => 'Find Inspiration',
-        content => <<'...'
-Anyone who stops learning is old,  whether
-at twenty or eighty. Anyone who keeps
-learning stays young. The greatest
-thing in life is to keep your mind
-young.
+    [
+        {
+            type     => 'chapter',
+            title    => 'This is Title',
+            subtitle => 'This is subtitle',
+        },
+        {
+            type    => 'text',
+            title   => 'Why Perl',
+            content => 'Hello Perl'
+        },
+        {
+            type     => 'code',
+            language => 'perl'
+            source   => '...'
+    #!perl
+    use strict;
+    use warnings;
 
--- Henry Ford
-...
-    },
-    {
-        type     => 'code',
-        language => 'ruby',
-        source   => <<'...'
-# Some random code here
-puts 'Hello, world!'
-name + nom
-function(full)
-class Foo < Far
-  :sum
-end
-...
-    },
+    print "hello\n";
+    ...
+        },
+    ]
 
 =head1 DESCRIPTION
 
