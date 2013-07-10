@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Application for presentation on terminal",
    "author" : [
       "Syohei YOSHIDA <syohex@gmail.com>"
    ],
@@ -42,6 +42,11 @@
       },
       "runtime" : {
          "requires" : {
+            "Class::Accessor::Lite" : "0.05",
+            "Term::ANSIColor" : "2.01",
+            "Term::Readkey" : "0",
+            "Text::VimColor" : "0",
+            "parent" : "0",
             "perl" : "5.008005"
          }
       },
